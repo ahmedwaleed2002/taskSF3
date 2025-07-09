@@ -1,12 +1,16 @@
 {
   "name": "day3-cli-app",
   "version": "1.0.0",
+  "description": "A CLI application that creates files, logs operations, and shows system information",
   "main": "index.js",
+  "bin": {
+    "day3-cli": "./index.js"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["cli", "file", "system"],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
